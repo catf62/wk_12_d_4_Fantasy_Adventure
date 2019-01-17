@@ -1,4 +1,6 @@
 package Weapons;
 
-public class Sword {
+import Interfaces.IWeapon;
+
+public class Sword implements IWeapon {
 }

@@ -1,4 +1,6 @@
 package Weapons;
 
-public class Axe {
+import Interfaces.IWeapon;
+
+public class Axe implements IWeapon {
 }
