@@ -8,8 +8,12 @@ public abstract class Player {
         this.healthPoints = healthPoints;
     }
 
-    public Integer gethealthPoints(){
+    public Integer getHealthPoints(){
         return this.healthPoints;
+    }
+
+    public void setHealthPoints(Integer newHealthPoints){
+        this.healthPoints = newHealthPoints;
     }
 
 }

@@ -22,7 +22,10 @@ public abstract class Fighter extends Player implements IWeapon {
     }
 
     public void attack(Enemy enemy){
-        Integer attackForce = this.weapon.damageValue;
-        enemy.takeDamage(attackForce);
+        this.weapon.attack(enemy);
+    }
+
+    public Integer getDamageValue(){
+        return this.weapon.getDamageValue();
     }
 }

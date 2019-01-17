@@ -16,4 +16,8 @@ public class Club implements IWeapon {
         enemy.takeDamage(attackPower);
     }
 
+    public Integer getDamageValue(){
+        return this.damageValue;
+    }
+
 }
